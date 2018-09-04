@@ -1,0 +1,89 @@
+/* === Asap - regular */
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/Asap-Regular.eot");
+  src: local("Asap Regular"),
+    local("Asap-Regular"),
+    url("/assets/fonts/Asap-Regular.eot") format("embedded-opentype"),
+    url("/assets/fonts/Asap-Regular.woff2") format("woff2"),
+    url("/assets/fonts/Asap-Regular.woff") format("woff"),
+    url("/assets/fonts/Asap-Regular.ttf") format("truetype"),
+    url("/assets/fonts/Asap-Regular.svg") format("svg");
+}
+
+/* === Asap - 500 */
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 500;
+  src: url("/assets/fonts/Asap-Medium.eot");
+  src: local("Asap Medium"),
+    local("Asap-Medium"),
+    url("/assets/fonts/Asap-Medium.eot") format("embedded-opentype"),
+    url("/assets/fonts/Asap-Medium.woff2") format("woff2"),
+    url("/assets/fonts/Asap-Medium.woff") format("woff"),
+    url("/assets/fonts/Asap-Medium.ttf") format("truetype"),
+    url("/assets/fonts/Asap-Medium.svg") format("svg");
+}
+
+/* === Asap - 700 */
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/Asap-Bold.eot");
+  src: local("Asap Bold"),
+    local("Asap-Bold"),
+    url("/assets/fonts/Asap-Bold.eot") format("embedded-opentype"),
+    url("/assets/fonts/Asap-Bold.woff2") format("woff2"),
+    url("/assets/fonts/Asap-Bold.woff") format("woff"),
+    url("/assets/fonts/Asap-Bold.ttf") format("truetype"),
+    url("/assets/fonts/Asap-Bold.svg") format("svg");
+}
+
+/* === Ubuntu Mono - regular */
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/UbuntuMono-Regular.eot");
+  src: local("Ubuntu Mono"),
+    local("UbuntuMono-Regular"),
+    url("/assets/fonts/UbuntuMono-Regular.eot") format("embedded-opentype"),
+    url("/assets/fonts/UbuntuMono-Regular.woff2") format("woff2"),
+    url("/assets/fonts/UbuntuMono-Regular.woff") format("woff"),
+    url("/assets/fonts/UbuntuMono-Regular.ttf") format("truetype"),
+    url("/assets/fonts/UbuntuMono-Regular.svg") format("svg");
+}
+
+/* === Ubuntu Mono - 700 */
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/UbuntuMono-Bold.eot");
+  src: local("Ubuntu Mono Bold"),
+    local("UbuntuMono-Bold"),
+    url("/assets/fonts/UbuntuMono-Bold.eot") format("embedded-opentype"),
+    url("/assets/fonts/UbuntuMono-Bold.woff2") format("woff2"),
+    url("/assets/fonts/UbuntuMono-Bold.woff") format("woff"),
+    url("/assets/fonts/UbuntuMono-Bold.ttf") format("truetype"),
+    url("/assets/fonts/UbuntuMono-Bold.svg") format("svg");
+}
+
+/* === Ubuntu Mono - 700italic */
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: italic;
+  font-weight: 700;
+  src: url("/assets/fonts/UbuntuMono-BoldItalic.eot");
+  src: local("Ubuntu Mono Bold Italic"),
+    local("UbuntuMono-BoldItalic"),
+    url("/assets/fonts/UbuntuMono-BoldItalic.eot") format("embedded-opentype"),
+    url("/assets/fonts/UbuntuMono-BoldItalic.woff2") format("woff2"),
+    url("/assets/fonts/UbuntuMono-BoldItalic.woff") format("woff"),
+    url("/assets/fonts/UbuntuMono-BoldItalic.ttf") format("truetype"),
+    url("/assets/fonts/UbuntuMono-BoldItalic.svg") format("svg");
+}
