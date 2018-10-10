@@ -3,12 +3,27 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1, width=device-width">
+  <meta
+    name="viewport"
+    content="initial-scale=1, width=device-width"
+  >
   <title>Smartdown - Share knowledge with less syntax</title>
-  <link rel="stylesheet" href="style/normalize8.0.0.css">
-  <link rel="stylesheet" href="style/fonts.css">
-  <link rel="stylesheet" href="style/main.css">
-  <link rel="icon" href="favicon.ico">
+  <link
+    rel="stylesheet"
+    href="style/normalize8.0.0.css"
+  >
+  <link
+    rel="stylesheet"
+    href="style/fonts.css"
+  >
+  <link
+    rel="stylesheet"
+    href="style/main.css"
+  >
+  <link
+    rel="icon"
+    href="favicon.ico"
+  >
   <script>
   function toggleScreenshot(target) {
     target.classList.toggle('zoomed');
@@ -29,7 +44,10 @@
 </head>
 
 <body>
-  <div id="mask" onclick="cancelMask()">
+  <div
+    id="mask"
+    onclick="cancelMask()"
+  >
   </div>
   <div class="container">
     <div class="site-box">
@@ -40,163 +58,225 @@
             Less Syntax, More 'Splainin'
           </h3>
       </div>
-      <div onclick="toggleScreenshot(this)" class="screenshot">
+      <div
+        onclick="toggleScreenshot(this)"
+        class="screenshot"
+      >
         <img alt="Welcome Screenshot Raw" src="assets/img/WelcomeScreenshotRaw.png">
       </div>
-      <div onclick="toggleScreenshot(this)" class="screenshot">
-        <img alt="Welcome Screenshot Rendered" src="assets/img/WelcomeScreenshotRendered.png">
+        <div
+          onclick="toggleScreenshot(this)"
+          class="screenshot"
+        >
+          <img alt="Welcome Screenshot Rendered" src="assets/img/WelcomeScreenshotRendered.png">
       </div>
-      <section>
-        <h3>Smartdown Core</h3>
-        <p>
-          <b>smartdown</b> - A Javascript library for translating, rendering, and interacting with Smartdown documents.
-        </p>
-        <ul>
-          <li>
-            <a target="_blank" href="https://www.npmjs.com/package/smartdown">Smartdown at NPM</a>
-          </li>
-          <li>
-            <a target="_blank" href="https://github.com/smartdown/smartdown/">Smartdown at GitHub</a>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3 id="gallery">Smartdown Gallery</h3>
-        <p>
-          Smartdown documents and associated resources that demonstrate various Smartdown features and serve as raw material for other Smartdown demos.
-        </p>
-
-        <ul>
-          <li>
-            <a target="_blank" href="https://smartdown.github.io/gallery/#Markdown">GitHub Source</a>
-          </li>
-          <li>
-            <a target="_blank" href="http://github.com/smartdown/gallery">Smartdown Gallery</a>
-          </li>
-          <li>
-            <a target="_blank" href="https://www.npmjs.com/package/smartdown-gallery">NPM module</a>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h3>Smartdown Viewer Site</h3>
-        <p>
-          The Smartdown Viewer Site is an example application that can view Smartdown documents as well as showing their raw Smartdown text.
-        </p>
-        <a target="_blank" href="https://smartdown.site">https://smartdown.site</a>
-      </section>
-      <section>
-        <h3>Example Smartdown-enabled Site</h3>
-        <p>
-          This much simpler example site simply renders the <a href="#gallery">Smartdown Gallery</a> examples.
-        </p>
-        <a target="_blank" href="https://smartdown.site/lib">https://smartdown.site/lib</a>
-      </section>
-      <section>
-        <h3>Smartdown Poster</h3>
-        <p>
-          This VueJS-based example demonstrates the placement of Smartdown documents in a tableau/grid layout, suitable for infographics and SmartPosters.
-        </p>
-        <a target="_blank" href="https://smartdown.github.io/poster/">
-            The official Smartdown Poster site.
-          </a>
-        <a target="_blank" href="https://bl.ocks.org/DoctorBud/raw/f21853bd0bfb1b8918efd69d921cf128/">https
-            A bl.ocks.org example of the Poster tech.
-          </a>
-      </section>
-      </section>
-      <section>
-        <h3>KnowBench aka InfoClay</h3>
-        <p>
-          InfoClay is an experiment in <em>modular</em> Markdown editing. The basic idea is that a Markdown document can be edited and Markdown can be learned <em>a little bit at a time</em> and that the editing environment supports the visualization of the document's structure, modular editing of structural Markdown elements (e.g., a list or an equation), and the ability to use drag-and-drop to manipulate these elements on the page. InfoClay was where Smartdown was originally prototyped before it was extracted into its own library. InfoClay is now a client of Smartdown.
-        </p>
-        <a target="_blank" href="https://knowbench.com/">https://knowbench.com/</a>
-      </section>
-      <section>
-        <h3>Smartdown Revealed at Eugene Web Devs</h3>
-        <p>
-          ...
-        </p>
-        <a target="_blank" href="http://doctorbud.com/celestial-toys/post/2017-06-28-smartdown-revealed/">http://doctorbud.com/celestial-toys/post/2017-06-28-smartdown-revealed/</a>
-      </section>
-      <section>
-        <h3>Smartdown via Glitch</h3>
-        <p>
-          <a href="https://glitch.com" target="_blank">
+          <section>
+            <h3>Smartdown Core</h3>
+            <p>
+              <b>smartdown</b> - A Javascript library for translating, rendering, and interacting with Smartdown documents.
+            </p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://www.npmjs.com/package/smartdown">Smartdown at NPM</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://github.com/smartdown/smartdown/">Smartdown at GitHub</a>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3 id="gallery">Smartdown Gallery</h3>
+            <p>
+              Smartdown documents and associated resources that demonstrate various Smartdown features and serve as raw material for other Smartdown demos.
+            </p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://smartdown.github.io/gallery/">Smartdown Gallery</a>
+              </li>
+              <li>
+                <a target="_blank" href="http://github.com/smartdown/gallery">GitHub Source</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.npmjs.com/package/smartdown-gallery">NPM module</a>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Smartdown Viewer Site</h3>
+            <p>
+              The Smartdown Viewer Site is an example application that can view Smartdown documents as well as showing their raw Smartdown text.
+            </p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://smartdown.site">https://smartdown.site</a>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Example Smartdown-enabled Site</h3>
+            <p>
+              This much simpler example site simply renders the <a href="#gallery">Smartdown Gallery</a> examples.
+            </p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://smartdown.site/lib/">https://smartdown.site/lib/</a>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Smartdown Poster</h3>
+            <p>
+              This VueJS-based example demonstrates the placement of Smartdown documents in a tableau/grid layout, suitable for infographics and SmartPosters.
+            </p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://smartdown.github.io/poster/">
+                  The official Smartdown Poster site.
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://bl.ocks.org/DoctorBud/raw/f21853bd0bfb1b8918efd69d921cf128/">
+                  A <b>bl.ocks.org</b> example of the Poster tech.
+                </a>
+              </li>
+            </ul>
+          </section>
+          </section>
+          <section>
+            <h3>KnowBench aka InfoClay</h3>
+            <p>
+              InfoClay is an experiment in <em>modular</em> Markdown editing. The basic idea is that a Markdown document can be edited and Markdown can be learned <em>a little bit at a time</em> and that the editing environment supports the visualization of the document's structure, modular editing of structural Markdown elements (e.g., a list or an equation), and the ability to use drag-and-drop to manipulate these elements on the page. InfoClay was where Smartdown was originally prototyped before it was extracted into its own library. InfoClay is now a client of Smartdown.
+            </p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://knowbench.com/">https://knowbench.com/</a>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Smartdown Revealed at Eugene Web Devs</h3>
+            <p>
+              ...
+            </p>
+            <ul>
+              <li>
+                <a target="_blank" href="http://doctorbud.com/celestial-toys/post/2017-06-28-smartdown-revealed/">http://doctorbud.com/celestial-toys/post/2017-06-28-smartdown-revealed/</a>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Smartdown via Glitch</h3>
+            <p>
+              <a href="https://glitch.com" target="_blank">
               Glitch
             </a> is a wonderful and convenient service that enables web projects to be authored, shared, and even <em>remixed</em>.
-        </p>
-        <p>
-          We've prepared a few Smartdown-enabled Glitch projects that can be easily copied and customized so that you can build your own Smartdown creation.
-        </p>
-        <ul>
-          <li>
-            <a target="_blank" href="https://smartdown-starter.glitch.me">A Simple Smartdown Project</a>
-          </li>
-          <li>
-            <a target="_blank" href="http://smartdown-brython.glitch.me">Smartdown and Brython</a>
-          </li>
-          <li>
-            <a target="_blank" href="https://smartdown-poster.glitch.me/#Poster">Smartdown Poster Example</a>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3>Smartdown via Gists</h3>
-        <p>
-          This tutorial was written in Smartdown, and describes how to use GitHub Gists to build a Smartdown project.
-        </p>
-        <a target="_blank" href="https://smartdown.site/gist/#DoctorBud/3b5cbab3424e08199b8046cf98d19c8f/Home">
-            https://smartdown.site/gist/#DoctorBud/3b5cbab3424e08199b8046cf98d19c8f/Home
-          </a>
-      </section>
-      <section>
-        <h3>Smartdown via bl.ocks.org</h3>
-        <p>
-          This tutorial was written in Smartdown, and describes how to use GitHub Gists to build a Smartdown project that is viewable via
-          <a href="https://bl.ocks.org" target="_blank">
+            </p>
+            <p>
+              We've prepared a few Smartdown-enabled Glitch projects that can be easily copied and customized so that you can build your own Smartdown creation.
+            </p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://smartdown-starter.glitch.me">A Simple Smartdown Project</a>
+              </li>
+              <li>
+                <a target="_blank" href="http://smartdown-brython.glitch.me">Smartdown and Brython</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://smartdown-poster.glitch.me/#Poster">Smartdown Poster Example</a>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Smartdown via Gists</h3>
+            <p>
+              This tutorial was written in Smartdown, and describes how to use GitHub Gists to build a Smartdown project.
+            </p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://smartdown.site/gist/#DoctorBud/3b5cbab3424e08199b8046cf98d19c8f/Home">
+                  https://smartdown.site/gist/#DoctorBud/3b5cbab3424e08199b8046cf98d19c8f/Home
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Smartdown via bl.ocks.org</h3>
+            <p>
+              This tutorial was written in Smartdown, and describes how to use GitHub Gists to build a Smartdown project that is viewable via
+              <a href="https://bl.ocks.org" target="_blank">
               bl.ocks.org
             </a>
-        </p>
-        <a target="_blank" href="https://bl.ocks.org/DoctorBud/raw/f3895d12abbe282bcd9a440ff12a0d47/#Home">https://bl.ocks.org/DoctorBud/raw/f3895d12abbe282bcd9a440ff12a0d47/#Home</a>
-      </section>
-      <div class="share-bar">
-        <div class="share-opt">
-          <a href="https://github.com/smartdown/">
+            </p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://bl.ocks.org/DoctorBud/raw/f3895d12abbe282bcd9a440ff12a0d47/#Home">https://bl.ocks.org/DoctorBud/raw/f3895d12abbe282bcd9a440ff12a0d47/#Home</a>
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>About the Smartdown Logo</h3>
+            <p>
+              The Smartdown Logo above (an early draft) was developed using Smartdown and explained in the blog post(s) below:
+            </a>
+            </p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://doctorbud.com/celestial-toys/post/2018-10-08-building-a-logo-for-smartdown/#index">
+                  Building a Logo, Part 1
+                </a>
+              </li>
+            </ul>
+          </section>
+
+
+          <div class="share-bar">
+            <div class="share-opt">
+              <a href="https://github.com/smartdown/">
               <img src="assets/img/github-logo.png" width="28" height="28" alt="GitHub">
             </a>
+            </div>
+            <div class="share-opt">
+              <a class="twitter-share-button" href="https://twitter.com/share" data-count="none" data-size="large" data-text="Smartdown: Smartdown">Tweet about Smartdown</a>
+            </div>
+          </div>
         </div>
-        <div class="share-opt">
-          <a class="twitter-share-button" href="https://twitter.com/share" data-count="none" data-size="large" data-text="Smartdown: Smartdown">Tweet about Smartdown</a>
+        <div class="site-footer">
+          <p class="txt-large">&hellip;as used by
+            <a
+          href="https://wildthinks.org/"
+          target="_blank">
+          WildThinks
+        </a>,
+            and many others.
+          </p>
+          <p>Source code available on GitHub:
+            <a
+          href="https://github.com/smartdown/"
+          target="_blank">
+          smartdown
+        </a>.
+          </p>
         </div>
       </div>
-    </div>
-    <div class="site-footer">
-      <p class="txt-large">&hellip;as used by
-        <a href="https://wildthinks.org/">WildThinks</a>, and many others.
-      </p>
-      <p>Source code available on GitHub: <a href="https://github.com/smartdown/">smartdown</a>.</p>
-    </div>
-  </div>
-  <script>
-  // (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-  // function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-  // e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-  // e.src='//www.google-analytics.com/analytics.js';
-  // r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  // ga('create','UA-43313358-1');ga('send','pageview');
+      <script>
+      // (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      // function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      // e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      // e.src='//www.google-analytics.com/analytics.js';
+      // r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      // ga('create','UA-43313358-1');ga('send','pageview');
 
-  ! function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (!d.getElementById(id)) {
-      js = d.createElement(s);
-      js.id = id;
-      js.src = "https://platform.twitter.com/widgets.js";
-      fjs.parentNode.insertBefore(js, fjs);
-    }
-  }(document, "script", "twitter-wjs");
-  </script>
+      ! function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "https://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      }(document, "script", "twitter-wjs");
+      </script>
 </body>
 
 </html>
