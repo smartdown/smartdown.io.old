@@ -111,6 +111,11 @@ ul.link-list {
   font-size: 2.6em;
 }
 
+.contact-me {
+  background: lightyellow;
+  padding: 10px;
+}
+
 .tagline {
   margin: 0 0 0.75em;
   font-size: 1.8em;
