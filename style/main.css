@@ -8,9 +8,9 @@ html {
 
 body {
   max-width: 720px;
-  xpadding: 20px 40px;
+  padding: 0;
   margin: 0 auto;
-  background: lightsteelblue;
+  background: indigo;
 }
 
 #mask {
@@ -31,10 +31,10 @@ body {
 
 
 .site-box {
-  padding: 40px 10px 0;
-  margin: 0 0 3em;
+  padding: 0 15px;
+  margin: 0;
   text-align: center;
-  xbox-shadow: 2px 4px 6px 1px rgba(50, 50, 50, 0.14);
+  background: lightsteelblue;
 }
 
 a {
@@ -73,13 +73,14 @@ ul.link-list {
   margin: 0 auto;
 }
 
+.hgroup {
+  padding: 0;
+  margin: 0;
+}
 .logo {
   width: 10rem;
-}
-
-.raven {
-  width: 100%;
-  margin: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .screenshot {
@@ -107,13 +108,14 @@ ul.link-list {
 
 .title {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   font-size: 2.6em;
 }
 
 .contact-me {
   background: lightyellow;
   padding: 10px;
+  margin: 5px 0;
 }
 
 .tagline {
