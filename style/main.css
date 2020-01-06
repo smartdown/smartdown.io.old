@@ -10,7 +10,7 @@ body {
   max-width: 720px;
   padding: 0;
   margin: 0 auto;
-  background: indigo;
+  background: lightsteelblue;
 }
 
 #mask {
@@ -71,6 +71,7 @@ ul.link-list {
 .site-footer {
   width: 85%;
   margin: 0 auto;
+  background: lightsteelblue;
 }
 
 .hgroup {
@@ -83,6 +84,14 @@ ul.link-list {
   margin: 0 auto;
   width: 7rem;
   padding: 0;
+}
+
+
+
+.screenshots h4 {
+  background: aliceblue;
+  xpadding: 0;
+  margin: 2px 0;
 }
 
 .screenshot {
@@ -111,18 +120,25 @@ ul.link-list {
 .title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 2.6em;
+  font-size: 1.8em;
 }
 
 .contact-me {
-  background: lightyellow;
+  background: aliceblue;
   padding: 10px;
   margin: 5px 0;
 }
 
 .tagline {
   margin: 0 0 0.75em;
-  font-size: 1.8em;
+  font-size: 1.4em;
+}
+
+.quote {
+  font-weight: 600;
+  font-style: italic;
+  background: ivory;
+  padding: 20px;
 }
 
 /**
@@ -178,8 +194,11 @@ section p {
   line-height: 1.4em;
 }
 
-section h3 {
+section h3,
+section h4 {
   text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 
